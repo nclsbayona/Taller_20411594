@@ -1,0 +1,198 @@
+    html{
+        background-color: black;
+    }
+
+    body{
+        margin: 0 !important;
+    }
+
+    .container-fluid {
+        background-image: url("Images/Space_background.jpg"), radial-gradient(closest-side, rgba(58, 63, 63, 0.5), rgba(127, 133, 132, 0.5));
+        background-blend-mode: color-burn;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #menu{
+        top: 0;
+        left: 15%;
+        position: fixed;
+        background-color: #000000 !important;
+    }
+
+    #bottom{
+        bottom: 0;
+        right: 15%;
+        position: fixed;
+        background-color: #000000 !important;
+    }
+
+    .navbar{
+        background-color: #000000 !important;
+    }
+
+    .navbar-brand b {
+        padding: 2rem;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    .navbar-brand img{
+        border-radius: 1rem;
+        padding: 0.5rem;
+        background-color: #fff;
+    }
+
+    #menu-selector {
+        height: 10rem;
+        text-align: center;
+    }
+    
+    .old-btn {
+        text-shadow: 0.2rem;
+        box-shadow: 1rem;
+        font-family: 'Gloria Hallelujah', cursive;
+        background-color: #ffffff;
+        border: 0 solid #383c44;
+        border-radius: 2rem;
+        color: #000000;
+        font-size: 1.5rem;
+        font-weight: bold;
+        justify-content: center;
+        line-height: 1.75rem;
+        padding: .75rem 1.65rem;
+        margin: 0.75rem;
+        text-align: center;
+        text-decoration: none #ffffff solid;
+        min-width: fit-content;
+        width: 10%;
+        max-width: 460px;
+        cursor: pointer;
+        border-width: 0.1rem;
+        border-color: #383c44;
+    }
+
+    /* Button CSS template taken from https://getcssscan.com/css-buttons-examples */
+
+    #menu-selector ul li {
+        margin-left: 3rem;
+        border-radius: 5rem;
+        float: left;
+        padding: 1rem;
+    }
+    
+    #menu-selector ul li:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .spacer    {
+        width: 100%;
+        height: 165px;
+    }
+
+    .spacer2   {
+        width: 100%;
+        height: 15px;
+    }
+
+    .spacer3   {
+        width: 100%;
+        height: 50px;
+    }
+
+    #titulo{
+        background-color: rgba(0, 0, 0, 0.5);
+        align-content: center;
+        vertical-align: center;
+        border-radius: 1rem;
+        align-items: center;
+        width: max-content;
+        margin: auto;
+    }
+
+    #noticias{
+        background-color: #000000;
+        font-size: 1rem;
+        text-shadow: 0.2rem;
+        border-radius: 1rem;
+        text-align: center;
+        padding: 0.2rem;
+        margin: 1rem;
+    }
+
+    #noticias a{
+        text-decoration: none !important;
+    }
+
+    .first{
+        text-decoration: none;
+        font-weight: 400;
+        color: #000000 !important;
+        background-color: pink;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        align-items: center;
+        margin: 0.3rem;
+        display: flex;
+        place-content: center;
+    }
+    
+    .second{
+        text-decoration: none;
+        width: 100%;
+        font-weight: 400;
+        color: #000000 !important;
+        background-color: aliceblue;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        align-items: center;
+        margin: 0.3rem;
+        display: flex;
+        place-content: center;
+    }
+
+    .second ul, .first ul{
+        display: block;
+        margin: 1rem;
+    }
+
+    .second:hover{
+        background-color: gainsboro;
+    }
+
+    .first:hover{
+        background-color: gainsboro;
+    }
+    
+    #titulo h1 b {
+        letter-spacing: 0.1rem;
+        word-spacing: 0.4rem;
+        color: white;
+        font-size: larger;
+        padding-right: 5rem;
+        text-align: center;
+        align-items: center;
+        padding-left: 2rem;
+    }   
+    
+    img{
+        size: 2rem;
+    }
+
+    .accordion-body{
+        background-color: rgba(0, 0, 0, 1) !important;
+        text-align: center;
+        color: #FFFFFF !important;
+    }
+
+    .accordion-button, .accordion-button.colapsed::after {
+        background-color: rgba(0, 0, 0, 1) !important;
+        border-radius: 1rem;
+        text-align: center;
+        color: #FFFFFF !important;
+    }
+
+    .carousel-inner{
+        background-color: rgb(255, 255, 255) !important;
+        text-align: center;
+    }
