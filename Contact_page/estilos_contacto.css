@@ -2,7 +2,7 @@ html{
     background-color: black;
 }
 
-.container-fluid {
+.container-fluid, body {
     background-image: url("../Main_page/Images/Space_background.jpg"), radial-gradient(closest-side, rgba(58, 63, 63, 0.5), rgba(127, 133, 132, 0.5));
     background-blend-mode: color-burn;
     text-align: center;
@@ -77,11 +77,11 @@ html{
 }
 
 .spacer    {
-    
-    background-image: url("../Main_page/Images/Space_background.jpg"), radial-gradient(closest-side, rgba(58, 63, 63, 0.5), rgba(127, 133, 132, 0.5));
+    background-image: url("../Main_page/Images/Space_background.jpg"), radial-gradient(closest-side, rgba(58, 63, 63, 0.5), rgba(127, 133, 132, 0.5)) !important;
     background-blend-mode: color-burn;
     width: 100%;
     height: 165px;
+    margin: 0%;
 }
 
 .spacer3   {
@@ -167,3 +167,17 @@ textarea{
 }
 
 /* Button CSS template taken from https://getcssscan.com/css-buttons-examples */
+
+@media  (max-width: 570px){
+    #menu, #bottom{
+        right: 0 !important;
+    }
+    
+}
+
+@media  (max-width: 1313px){
+    #menu{
+        left: 0 !important;
+    }
+    
+}

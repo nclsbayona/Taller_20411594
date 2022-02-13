@@ -109,6 +109,7 @@ html{
 }
 
 .cont{
+    text-align: center;
     display: flex;
 }
 
