@@ -224,3 +224,17 @@ img{
     background-color: rgb(255, 255, 255) !important;
     text-align: center;
 }
+
+@media  (max-width: 570px){
+    #menu, #bottom{
+        right: 0 !important;
+    }
+    
+}
+
+@media  (max-width: 1313px){
+    #menu{
+        left: 0 !important;
+    }
+    
+}
