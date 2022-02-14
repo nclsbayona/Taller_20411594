@@ -227,3 +227,8 @@
         }
         
     }
+
+    .tab-pane{
+        text-align: center;
+        display:flex;
+    }
