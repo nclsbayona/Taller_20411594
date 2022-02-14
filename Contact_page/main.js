@@ -5,5 +5,6 @@ function show_alert() {
     let tel = document.getElementById("telefono").value;
     let asun = document.getElementById("asunto").value;
     let msg = document.getElementById("mensaje").value;
-    alert("Apreciado " + name + "\n" + "Email: " + email + "\n" + "Telefono: " + tel + "\nSe ha escrito un mensaje con asunto " + asun + " y contenido:\n" + msg);
+    let mensajeE = "Apreciado " + name + "\n" + "Email: " + email + "\n" + "Telefono: " + tel + "\nSe ha escrito un mensaje con asunto " + asun + " y contenido:\n" + msg;
+    alert(mensajeE);
 }
